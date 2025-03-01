@@ -5,7 +5,7 @@ import SearchIcon from "./search.svg";
 import MovieCard from "./MovieCard";
 import MovieDetails from "./MovieDetails";
 
-const API_URL = `http://www.omdbapi.com?apikey=${import.meta.env.VITE_APP_OMDB_API_KEY}`;
+const API_URL = `https://www.omdbapi.com?apikey=${import.meta.env.VITE_APP_OMDB_API_KEY}`;
 
 
 function App() {
