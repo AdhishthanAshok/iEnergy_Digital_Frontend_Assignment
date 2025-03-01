@@ -14,9 +14,6 @@ A React.js web application that fetches and displays movies using the OMDB API. 
 
 🌐 Uses OMDB API for fetching movie data
 
-📸 Screenshot
-
-
 
 🛠️ Tech Stack
 
