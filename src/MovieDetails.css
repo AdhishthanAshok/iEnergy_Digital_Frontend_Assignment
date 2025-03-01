@@ -1,0 +1,92 @@
+.movie-details {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #1e1e1e; /* Dark background */
+    color: #fff; /* White text for contrast */
+    border-radius: 12px; /* Rounded corners */
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* Stronger shadow for a more pronounced effect */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.movie-details:hover {
+    transform: scale(1.05); /* Slight hover effect */
+}
+
+.movie-details img {
+    width: 100%;
+    max-width: 280px; /* Adjusted size for modern look */
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6); /* Softer shadow for images */
+    transition: transform 0.3s ease-in-out;
+}
+
+.movie-details img:hover {
+    transform: scale(1.05); /* Slight hover effect for image */
+}
+
+.movie-details h2 {
+    font-size: 28px; /* Larger title for prominence */
+    margin-top: 20px;
+    color: #f2a900; /* Modern gold for the title */
+    font-weight: 600;
+}
+
+.movie-details p {
+    font-size: 18px;
+    margin: 10px 0;
+    text-align: left;
+    width: 100%;
+    max-width: 550px;
+    line-height: 1.6;
+    color: #e0e0e0; /* Light grey text for readability */
+}
+
+.movie-details strong {
+    color: #f2a900; /* Matching gold for strong labels */
+}
+
+/* Improve layout on larger screens */
+@media (min-width: 768px) {
+    .movie-details {
+        flex-direction: row;
+        text-align: left;
+        gap: 20px;
+    }
+
+    .movie-details img {
+        max-width: 250px;
+    }
+
+    .movie-details .details-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+.back-button {
+    background-color: #f2a900; /* Gold button color */
+    color: #222; /* Dark text color */
+    border: none;
+    padding: 12px 18px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.back-button:hover {
+    background-color: #c68900; /* Darker gold on hover */
+    transform: scale(1.05); /* Subtle hover effect */
+}
+
+.back-button:focus {
+    outline: none; /* Remove outline on focus */
+}
