@@ -1,4 +1,4 @@
-🎬 Movie Listing Web Page
+# 🎬 Movie Listing Web Page
 
 A React.js web application that fetches and displays movies using the OMDB API. It features a search bar, infinite scrolling, and movie details page.
 
@@ -13,9 +13,6 @@ A React.js web application that fetches and displays movies using the OMDB API. 
 🎨 Responsive UI with a clean design
 
 🌐 Uses OMDB API for fetching movie data
-
-📸 Screenshot
-
 
 
 🛠️ Tech Stack
